@@ -1,0 +1,29 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+#status {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 24px;
+}
+
+#reset {
+    display: block;
+    margin: 0 auto;
+}
